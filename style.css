@@ -33,6 +33,11 @@
   z-index: 1;
 }
 
+/* course */
+#course{
+  background-color: lightgray;
+}
+
 /*============= SECTION =============*/
 
 /* .narrow {
