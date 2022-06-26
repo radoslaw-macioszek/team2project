@@ -1,14 +1,16 @@
 /* navigation */
 
 .navbar {
-  background-color: black;
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
-  font-weight: bold;
+  background-color: rgb(61, 148, 210);
+  font-size: 0.7rem;
+  letter-spacing: 0.8rem;
+  font-weight: 600;
+  font-family: 'Century Gothic';
+  
 }
 
 .navbar-brand img {
-  height: 1.8rem;
+  height: 3rem;
 }
 
 .navbar .navbar-nav li {
