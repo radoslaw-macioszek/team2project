@@ -34,44 +34,60 @@
 }
 
 /* course */
-#course{
+#course {
   background-color: lightgray;
 }
 
 /* features */
-.jumbotron{
+.jumbotron {
   color: black;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-.features-list{
+.features-list {
   list-style: none;
   padding-left: 0;
 }
 
 /* resources */
-.resource p{
+.resource p {
   font-size: 0.9rem;
 }
 
 /* clients */
 
-.client{
-  width:90%;
+.client {
+  width: 80%;
   border-radius: 50%;
   min-width: 15vw; /* viewport width */
 }
 
+/* contact */
+
+footer,
+footer a {
+  color: grey;
+}
+
+footer img {
+  height: 3rem;
+  margin: 1rem 0;
+}
+
+footer a:hover,
+footer p,
+footer h3 {
+  color: black;
+}
 
 /* own media queries */
 
-@media all and (max-width: 767px){
-  .client{
+@media all and (max-width: 767px) {
+  .client {
     width: 50%;
   }
 }
-
 
 /*============= SECTION =============*/
 
