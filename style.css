@@ -1,58 +1,75 @@
 /* navigation */
 
 .navbar {
-  background-color: black;
-  font-size: 0.9rem;
-  letter-spacing: 0.1rem;
-  font-weight: bold;
+	background-color: black;
+	font-size: 0.9rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
 }
 
 .navbar-brand img {
-  height: 1.8rem;
+	height: 3rem;
+  background-color: rgb(61, 148, 210);
+  font-size: 0.7rem;
+  letter-spacing: 0.8rem;
+  font-weight: bold;
+  font-family: 'Century Gothic';
 }
 
 .navbar .navbar-nav li {
-  padding-right: 0.6rem;
+	padding-right: 0.6rem;
 }
 
 .navbar .navbar-nav .nav-link:hover {
-  color: greenyellow;
+	color: greenyellow;
 }
 
 /* landing */
 .home-inner {
-  background-image: url(img/computers.png);
-  background-size: contain;
+	background-image: url(img/computers.png);
+	background-size: contain;
 }
 
 .caption {
-  width: 100%;
-  color: white;
-  position: absolute;
-  top: 30%;
-  z-index: 1;
+	width: 100%;
+	color: white;
+	position: absolute;
+	top: 30%;
+	z-index: 1;
 }
 
 /* course */
 #course {
-  background-color: lightgray;
+  background-color: rgb(235, 163, 54);
 }
 
 /* features */
 .jumbotron {
-  color: black;
-  margin-bottom: 0;
-  padding-bottom: 0;
+	color: black;
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .features-list {
-  list-style: none;
-  padding-left: 0;
+	list-style: none;
+	padding-left: 0;
 }
 
 /* resources */
 .resource p {
-  font-size: 0.9rem;
+	font-size: 1.1rem;
+}
+
+.image {
+  width: 100%;
+  height: 40vh;
+  max-width: 100%;
+  object-fit: cover;
+  transition: .3s;
+}
+
+.image:hover {
+  transform: scale(1.1);
 }
 
 /* clients */
@@ -60,35 +77,72 @@
 .client {
   width: 80%;
   border-radius: 50%;
-  min-width: 15vw; /* viewport width */
+  min-width: 15vw;
+  /* viewport width */
+}
+
+.card {
+	max-width: 25rem;
+	height: 28rem;
+}
+
+.card-img-top {
+	max-width: 100%;
+	max-height: 11rem;
+	object-fit: cover;
+}
+
+.card-title {
+	border-bottom: 1px solid orange;
+	padding-bottom: 2px;
+	font-family: monospace;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 4rem;
+}
+
+.card-text {
+	font-family: monospace;
+	font-size: 0.8rem;
+	font-style: italic;
+	color: grey;
+}
+
+.card-body {
+	padding-top: 0.25px;
 }
 
 /* contact */
 
 footer,
 footer a {
-  color: grey;
+	color: grey;
 }
 
 footer img {
-  height: 3rem;
-  margin: 1rem 0;
+	height: 3rem;
+	margin: 1rem 0;
 }
 
 footer a:hover,
 footer p,
 footer h3 {
-  color: black;
+	color: black;
 }
 
 /* own media queries */
 
-@media all and (max-width: 767px) {
-  .client {
-    width: 50%;
-  }
+@media all and (max-width: 992px) {
+	.card {
+		width: 50%;
+		margin: 0 auto;
+	}
 }
 
+.contact-details ul {
+  list-style-type: none;
+}
 /*============= SECTION =============*/
 
 /* .narrow {
