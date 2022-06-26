@@ -40,7 +40,7 @@
 
 /* course */
 #course {
-	background-color: lightgray;
+  background-color: rgb(235, 163, 54);
 }
 
 /* features */
@@ -57,7 +57,7 @@
 
 /* resources */
 .resource p {
-	font-size: 0.9rem;
+	font-size: 1.1rem;
 }
 
 .image {
