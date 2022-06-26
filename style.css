@@ -65,7 +65,6 @@
 
 /* contact */
 
-
 footer,
 footer a {
   color: grey;
@@ -90,7 +89,7 @@ footer h3 {
   }
 }
 
-.szczegoly ul {
+.contact-details ul {
   list-style-type: none;
 }
 /*============= SECTION =============*/
