@@ -57,6 +57,22 @@
 
 /* clients */
 
+.client{
+  width:90%;
+  border-radius: 50%;
+  min-width: 15vw; /* viewport width */
+}
+
+
+/* own media queries */
+
+@media all and (max-width: 767px){
+  .client{
+    width: 50%;
+  }
+}
+
+
 /*============= SECTION =============*/
 
 /* .narrow {
