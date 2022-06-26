@@ -8,7 +8,12 @@
 }
 
 .navbar-brand img {
-	height: 1.8rem;
+	height: 3rem;
+  background-color: rgb(61, 148, 210);
+  font-size: 0.7rem;
+  letter-spacing: 0.8rem;
+  font-weight: 600;
+  font-family: 'Century Gothic';
 }
 
 .navbar .navbar-nav li {
@@ -97,6 +102,7 @@
 
 /* contact */
 
+
 footer,
 footer a {
 	color: grey;
@@ -122,6 +128,9 @@ footer h3 {
 	}
 }
 
+.szczegoly ul {
+  list-style-type: none;
+}
 /*============= SECTION =============*/
 
 /* .narrow {
